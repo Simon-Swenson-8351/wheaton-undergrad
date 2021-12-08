@@ -1,0 +1,22 @@
+public class BigJayJayTestCase {
+
+	public static void main(String[] args) {
+
+		int fezzik;
+
+		fezzik = 3 + 4 * 5;
+		System.out.println(fezzik);
+		fezzik = (3 + 4) * 5;
+		System.out.println(fezzik);
+		fezzik = 3 * (4 * 5);
+		System.out.println(fezzik);
+		fezzik = 3 * 4 * 5;
+		System.out.println(fezzik);
+		fezzik = (100 - 12) - 6;
+		System.out.println(fezzik);
+		fezzik = 100 - (12 - 6);
+		System.out.println(fezzik);
+		fezzik = 100 - 12 - 6;
+		System.out.println(fezzik);
+	}
+}

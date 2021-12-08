@@ -1,0 +1,25 @@
+public class SmallJayJayTestCaseFour {
+
+	public static void main(String[] args) {
+
+            int doWhileGuard;
+            int doWhileDecl1_2;
+            boolean doWhileDecl2_1;
+            doWhileGuard = 17;
+                            doWhileDecl1_2 = 1;
+                doWhileDecl2_1 = true;
+            do {
+                int doWhileDecl1_1;
+                if(doWhileDecl2_1) {
+                    doWhileGuard = doWhileGuard + doWhileDecl1_2;
+                    System.out.println(doWhileGuard);
+                    doWhileDecl2_1 = false;
+                    doWhileDecl1_2 = doWhileDecl1_2 + 1;
+                }
+                else {
+                    System.out.println(doWhileGuard);
+                    doWhileDecl2_1 = true;
+                }
+            } while (doWhileGuard < 100);
+	}
+}

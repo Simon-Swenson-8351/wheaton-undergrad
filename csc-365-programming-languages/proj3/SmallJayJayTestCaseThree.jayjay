@@ -1,0 +1,13 @@
+public class SmallJayJayTestCaseThree {
+
+	public static void main(String[] args) {
+
+
+            for(int countLoop2 = -5; countLoop2 < 5; countLoop2 = countLoop2 + 2) {
+                int countLoop2Decl1;
+                int countLoop2Decl2;
+                countLoop2Decl2 = 1000;
+                System.out.println(countLoop2 + countLoop2Decl2);
+            }
+	}
+}

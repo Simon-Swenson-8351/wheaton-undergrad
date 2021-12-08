@@ -1,0 +1,21 @@
+public class Euclid {
+public static void main(String[] args) {
+
+      int a, b, t;
+
+      a = 12;
+      b = 9;
+
+      while (b > 0) {
+
+        t = a / b;
+        t = t * b;
+        t = a - t;
+        a = b;
+        b = t;
+      }
+
+      System.out.println(a);
+}
+}
+      

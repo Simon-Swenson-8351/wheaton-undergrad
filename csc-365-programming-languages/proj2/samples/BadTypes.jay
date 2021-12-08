@@ -1,0 +1,21 @@
+public class BadTypes {
+public static void main(String[] args) {
+
+    int x, y, z;
+    boolean x;
+    boolean q;
+
+    a = (3 - true) + (12 && 17);
+
+    y = b * 3;
+
+    z = y && (y < 12);
+
+    x = ! (z < 118);
+    z = -x;
+
+    z = ! y;
+    y = - q;
+
+}
+}
